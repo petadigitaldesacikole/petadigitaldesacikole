@@ -617,3 +617,26 @@ body.is-splash .bg-blob{
   border-radius: 12px;
   margin-bottom: 16px;
 }
+@media (max-width: 600px) {
+  .home-logos img {
+    height: 28px;
+  }
+
+  .brand-text h1 {
+    font-size: 16px;
+  }
+
+  .brand-text span {
+    font-size: 11px;
+  }
+}
+.home-logos img {
+  height: 38px;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.home-logos img:hover {
+  opacity: 1;
+}
+
