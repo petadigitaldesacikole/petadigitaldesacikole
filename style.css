@@ -617,3 +617,30 @@ body.is-splash .bg-blob{
   border-radius: 12px;
   margin-bottom: 16px;
 }
+@media (max-width: 768px) {
+
+  .brand {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .home-logos {
+    justify-content: center;
+  }
+
+  .home-logos img {
+    height: 30px;
+  }
+
+  .brand-text h1 {
+    font-size: 16px;
+  }
+
+  .brand-text span {
+    font-size: 12px;
+  }
+
+}
+
